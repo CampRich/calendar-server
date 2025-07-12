@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB (replace with your MongoDB Atlas connection string)
-mongoose.connect('mongodb+srv://camprich:<Mimidog322>@calendar.offybal.mongodb.net/?retryWrites=true&w=majority&appName=Calendar', {
+mongoose.connect('mongodb+srv://camprich:Mimidog322@calendar.offybal.mongodb.net/?retryWrites=true&w=majority&appName=Calendar', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'));
